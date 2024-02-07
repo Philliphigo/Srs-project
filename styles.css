@@ -1,0 +1,175 @@
+/* Use a variable to store the primary color */
+:root {
+  --primary-color: #008CBA;
+}
+
+/* Use a variable to store the secondary color */
+:root {
+  --secondary-color: #04AA6D;
+}
+
+/* Style the body element with a light gray background color */
+body {
+  background-color: #f0f0f0;
+}
+
+/* Style the container element with a fixed width and center alignment */
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* Style the logo element with a large font size and a primary color */
+.logo {
+  font-size: 40px;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+/* Style the nav element with a flex display and space-between alignment */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style the nav list with no bullets and no margin */
+nav ul {
+  list-style: none;
+  margin: 0;
+}
+
+/* Style the nav list items with a horizontal display and some padding */
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+/* Style the nav links with a white text color and a primary background color */
+nav ul li a {
+  color: white;
+  background-color: var(--primary-color);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 30%); /* Add a box shadow to create a bubble effect */
+}
+
+/* Style the nav links on hover with a darker background color and a scale transform */
+nav ul li a:hover {
+  background-color: #007099;
+  transform: scale(1.1); /* Add a scale transform to create a zoom effect */
+  transition: all 0.3s ease; /* Add a smooth transition */
+}
+
+/* Style the watermark element with a small font size and a light gray color */
+.watermark {
+  font-size: 122px;
+  color: #cccccc;
+  text-align: center;
+}
+
+/* Style the music section with some padding and a white background color */
+.music {
+  padding: 20px;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 30%); /* Add a box shadow to create a bubble effect */
+}
+
+/* Style the music heading with a larger font size and a secondary color */
+.music h2 {
+  font-size: 30px;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* Style the song article with a flex display and some margin */
+.song {
+  display: flex;
+  margin: 20px 0;
+}
+
+/* Style the song info element with some padding and a flex display */
+.song-info {
+  padding: 10px;
+  display: flex;
+  align-items: center
+}
+
+/* Style the song title element with a larger font size and a secondary color */
+.song-title {
+  font-size: 20px;
+  color: var(--secondary-color);
+  margin-center: 10px;
+}
+
+/* Style the song content element with some padding and a flex display */
+.song-content {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+/* Style the download button with a white text color and a secondary background color */
+.download-btn {
+  color: white;
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 30%); /* Add a box shadow to create a bubble effect */
+}
+
+/* Style the download button on hover with a darker background color and a scale transform */
+.download-btn:hover {
+  background-color: #039a55;
+  transform: scale(1.1); /* Add a scale transform to create a zoom effect */
+  transition: all 0.3s ease; /* Add a smooth transition */
+}
+
+/* Use a upload-music class to create a section for the upload music form */
+.upload-music {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 80px;
+  border-top: 2px solid #eeeeee;
+  transition: all 0.3s ease; /* Add smooth transition */
+}
+
+/* Style the upload music heading with a larger font size and a dark color */
+.upload-music h2 {
+  font-size: 30px;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* Style the footer */
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  transition: all 0.3s ease; /* Add smooth transition */
+}
+
+/* Style the footer links */
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+/* Style the footer links */
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+/* Style the social icons in the footer */
+footer .social-icons a {
+  color: white;
+  font-size: 20px;
+  margin: 0 10px;
+}
